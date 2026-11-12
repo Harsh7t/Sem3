@@ -158,7 +158,9 @@ input[type='checkbox']:checked::after { content: '✓'; color: #000; font: 700 1
 .solution .qtopic { font-weight: 500; }
 .solution .body h4 { margin: var(--space-3) 0 var(--space-1); font: 600 var(--font-xs) var(--mono); text-transform: uppercase; color: var(--text-muted); }
 .qa { overflow-wrap: anywhere; }
-.qa.qtext { border-left: 3px solid var(--orange); padding-left: var(--space-3); }
+.qa.qtext { border-left: 4px solid var(--orange); padding: var(--space-3); background: var(--bg-subtle); border-radius: 0 var(--radius) var(--radius) 0; font-weight: 600; }
+.qa.qtext, .qa.qtext p, .qa.qtext p.ln { font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif; font-size: 17px; font-weight: 600; line-height: 1.55; }
+.qa.qtext pre, .qa.qtext pre.grid { font-weight: 400; }
 .qa pre { margin: 0 0 var(--space-3); padding: var(--space-3); overflow-x: auto; background: var(--bg-subtle); border: 1px solid var(--border); border-radius: var(--radius); font: var(--font-xs)/1.5 var(--mono); overflow-wrap: normal; }
 
 @media (max-width: 800px) {
